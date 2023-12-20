@@ -1,25 +1,46 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
+import HomeView from '../views/MainView.vue'
+import amIResponsive from '../components/features/amIResponsive.vue'
+import Error from '../components/Error.vue'
 
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
+const router = new createRouter({
+	history: createWebHistory(process.env.BASE_URL),
+	mode: 'history',
+	routes: [
+		{
+			path: '/home/',
+			name: 'home',
+			component: HomeView,
+			meta: { title: 'Joshua Tania' },//##
+		},
+		{
+			path: '/amiresponsive/',
+			name: 'amiresponsive',
+			component: amIResponsive,
+			meta: { title: 'Am I Responsive?' },//##
+		},
+		{
+			path: '/:catchAll(.*)',
+			name: 'error',
+			component: Error,
+			meta: { title: '404 | Isekai out' },//##
+		},
+		
+	],
+
+});
+
+router.beforeEach((to, from, next) => {
+    if(to.path !== '/home/'){
+      if(to.path == '/'){
+        next('/home/')
+      }else{
+        next()
+      }
+    }else{
+      next()
+    }
 })
 
 export default router
