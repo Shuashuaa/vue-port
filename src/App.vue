@@ -79,7 +79,7 @@
 			>
                 <!-- for changing nav button design onScroll -->
                 <!-- if Home -->
-                <v-btn v-if="routerPath == '#goToHome'" :href="item.to" style="background-color: #6e7175; color: black; border: 1px solid #6e7175" :style="{ backgroundColor: item.to == routerPath ? '#6e7175' : '' }" class="mb-2 text-infos" size="small">
+                <v-btn v-if="routerPath == '#'" :href="item.to" style="background-color: #6e7175; color: black; border: 1px solid #6e7175" :style="{ backgroundColor: item.to == routerPath ? '#6e7175' : '' }" class="mb-2 text-infos" size="small">
                     <p :style="{ color: item.to === routerPath ? 'white' : '#6e7175' }" >{{ item.text }}</p>
                 </v-btn>
                 <!-- the rest -->
@@ -113,10 +113,10 @@ export default {
 
         const drawer = ref(false);
         const items = reactive([
-            {text:'Home', icon:'mdi-home', to:'#goToHome'},
+            {text:'Home', icon:'mdi-home', to:'#'},
             // {text:'Home', icon:'mdi-home', to:'/'},
-            {text:'Info', icon:'mdi-archive-outline', to:'#goToInfo'},
-            {text:'Projects', icon:'mdi-tools', to:'#goToProjects'},
+            {text:'Info', icon:'mdi-archive-outline', to:'#info'},
+            {text:'Projects', icon:'mdi-tools', to:'#projects'},
             // {text:'Contact', icon:'mdi-information-outline', to:'#goToContact'},
         ])
 
@@ -133,7 +133,7 @@ export default {
         );
 
         const routerPath = ref('');
-        routerPath.value = '#goToHome';
+        routerPath.value = '#';
         
         document.addEventListener('scroll', function() {
             
@@ -153,7 +153,7 @@ export default {
                         routerPath.value = section.id
                     // }else{
                         // router.push({ hash: `` });
-                    //     router.push({ hash: `#goToHome` }); 
+                    //     router.push({ hash: `#` }); 
                         
                     // }
                     
