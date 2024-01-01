@@ -9,6 +9,15 @@ import VueKinesis from "vue-kinesis";
 
 loadFonts()
 
+router.beforeEach((to, from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title;
+  } else {
+    document.title = '404';
+  }
+  next();
+});
+
 createApp(App)
   .use(router)
   .use(vuetify) //mdi
