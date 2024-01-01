@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '../views/MainView.vue'
 import amIResponsive from '../components/features/amIResponsive.vue'
+import Error from '../components/Error.vue'
 
 const router = new createRouter({
 	history: createWebHistory(process.env.BASE_URL),
@@ -18,6 +19,12 @@ const router = new createRouter({
 			name: 'amiresponsive',
 			component: amIResponsive,
 			meta: { title: 'Am I Responsive?' },//##
+		},
+		{
+			path: '/:catchAll(.*)',
+			name: 'error',
+			component: Error,
+			meta: { title: '404 | Isekai out' },//##
 		},
 		
 	],
