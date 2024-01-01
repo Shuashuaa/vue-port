@@ -27,10 +27,45 @@
     </div> 
 </template>
 
-<script>
-export default {
-    setup() {
-        
-    },
+<style scoped>
+
+html { overflow: hidden !important; }
+
+.gomenMobile{
+    /* font-size: 45px; background-color: #453011;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px; */
+    font-size: 45px;
+    background-color: #343a40;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(210, 210, 210, 0.5) 0px 3px 3px;
 }
-</script>
+.gomenPC{
+    /* font-size: 90px; background-color: #453011;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px; */
+    font-size: 90px;
+    background-color: #343a40;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(210, 210, 210, 0.5) 0px 3px 3px;
+}
+#app{
+   transition: 200s !important;
+}
+h1,h2,h3,h4,h5,h6,b{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+</style>
