@@ -15,7 +15,7 @@
             <v-card v-for="(stack, i) in stacks" :key="i" class="pa-5 mr-1 mt-1 text-center stack" width="200" color="#f5f5f5" 
             style="border: 1px solid rgba(52, 58, 64, 0.62); border-radius: 1px; flex-grow: 4;" elevation="1"
             >
-                <v-img :src="stack.image" style="height: 80px;"/>
+                <v-img draggable="false" :src="stack.image" style="height: 80px;"/>
                 &nbsp;
                 <p class="text-stack">{{stack.name}}</p>
             </v-card>
@@ -27,7 +27,7 @@
             <v-card v-for="(stack1, i) in otherStacks" :key="i" class="pa-5 mr-1 mt-1 d-flex stack1" width="200" color="#f5f5f5" 
             style="border: 1px solid rgba(52, 58, 64, 0.62); border-radius: 1px; flex-grow: 4; " elevation="1"
             >
-                <img :src="stack1.image" style="height: 30px;"/>
+                <img draggable="false" :src="stack1.image" style="height: 30px;"/>
                 <v-spacer/>
                 <p class="pt-2 text-stack">{{stack1.name}}</p>
             </v-card>
@@ -43,9 +43,9 @@ export default {
     setup() {
         const stacks = ref([
             { name: 'VUEJS', image: 'https://vuejs.org/images/logo.png' },
-            { name: 'VITE', image: 'https://camo.githubusercontent.com/61e102d7c605ff91efedb9d7e47c1c4a07cef59d3e1da202fd74f4772122ca4e/68747470733a2f2f766974656a732e6465762f6c6f676f2e737667' },
+            { name: 'VITE', image: 'https://vitejs.dev/logo-with-shadow.png' },
             { name: 'PINIA', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pinialogo.svg/1200px-Pinialogo.svg.png' },
-            { name: 'VUETIFY', image: 'https://camo.githubusercontent.com/be384df72ff1748336f5927f7116e79a37cbe1639a5b7db162be2d7afe350f87/68747470733a2f2f63646e2e767565746966796a732e636f6d2f696d616765732f6c6f676f732f6c6f676f2e737667' },
+            { name: 'VUETIFY', image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg' },
             { name: 'LARAVEL', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png' }
         ])
 
@@ -55,7 +55,7 @@ export default {
             { name: 'JAVASCRIPT', image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png' },
             { name: 'PHP', image: 'https://pngimg.com/d/php_PNG27.png' },
             { name: 'MYSQL', image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/MySQL_Dolphin.jpg' },
-            { name: 'NODEJS', image: 'https://cdn.freebiesupply.com/logos/large/2x/nodejs-icon-logo-png-transparent.png' },
+            { name: 'NODEJS', image: 'https://cdn-icons-png.flaticon.com/512/5968/5968322.png' },
             { name: 'BOOTSTRAP', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png' },
             { name: 'FIGMA', image: 'https://w7.pngwing.com/pngs/431/965/png-transparent-figma-designer-computer-icons-material-design-design-rectangle-poster-logo.png' },
             { name: 'GIT', image: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' },
