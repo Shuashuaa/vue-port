@@ -1,8 +1,8 @@
 <template>
-    <HomeComp id="#" class="section" />
-    <InfoComp id="info" class="section" />
-    <Stacks id="stacks" class="section" />
-    <ProductsComp id="projects" class="section" />
+    <HomeComp />
+    <InfoComp id="info" class="section"/>
+    <Stacks />
+    <ProductsComp />
     <ContactComp />
 </template>
 
