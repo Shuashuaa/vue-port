@@ -1,5 +1,5 @@
 <template>
-	<div id="info" class="justify-center d-flex section" style="background-color: #f5f5f5; min-height:500px; padding-top: 100px; padding-bottom: 100px; position: relative">
+	<div class="justify-center d-flex" style="background-color: #f5f5f5; min-height:500px; padding-top: 100px; padding-bottom: 100px; position: relative">
 		<kinesis-container event="scroll" class="parent d-none d-lg-block d-xl-block" style="position: absolute;">
 			<kinesis-element
 				class="child-pc"
@@ -64,7 +64,7 @@
 
 		<!-- pc -->
 
-		<div id="info" class="d-none d-lg-block d-xl-block section" style="width: 60%;">
+		<div  class="d-none d-lg-block d-xl-block " style="width: 60%;">
 
 			<div class="d-flex">
 				<v-card class="parentBg mr-10" width="50%" elevation="0" color="#f5f5f5" style="border-radius: 50px">
@@ -74,7 +74,7 @@
 						
 					<v-card class="parentBg" height="100%" elevation="0" color="#f5f5f5">
 						<div class="pl-16">
-							<v-img src="https://avatars.githubusercontent.com/u/96514740?v=4" width="300px" style="border-radius: 100%;  opacity: 1 !important;"></v-img>
+							<v-img draggable="false" src="https://avatars.githubusercontent.com/u/96514740?v=4" width="300px" style="border-radius: 100%;  opacity: 1 !important;"></v-img>
 						</div>
 					</v-card>
 				</v-card>
@@ -125,7 +125,7 @@
 					
 				<v-card class="parentBg" height="100%" elevation="0" color="#f5f5f5">
 					<div>
-						<v-img src="https://avatars.githubusercontent.com/u/96514740?v=4" width="300px" style="border-radius: 100%; opacity: 1 !important;"></v-img>
+						<v-img draggable="false" src="https://avatars.githubusercontent.com/u/96514740?v=4" width="300px" style="border-radius: 100%; opacity: 1 !important;"></v-img>
 					</div>
 					
 					<v-card color="#f5f5f5" class="pt-12 text-center" elevation="0">
