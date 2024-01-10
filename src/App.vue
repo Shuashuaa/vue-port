@@ -45,9 +45,9 @@
 		class="d-flex d-sm-flex d-md-none"
 		density="compact"
 		> 
-			<v-toolbar-title style="color: white;">
-                <b class="title">JOSHUA TANIA</b>
-            </v-toolbar-title>
+			<!-- <v-toolbar-title style="color: white;"> -->
+                <b class="title ml-5">JOSHUA TANIA</b>
+            <!-- </v-toolbar-title> -->
 			<v-spacer/>
 			<v-app-bar-nav-icon class="d-lg-none" id="drawer" @click="drawer = !drawer"></v-app-bar-nav-icon> 
 					
@@ -67,8 +67,8 @@
             
             <!-- <v-app-bar-nav-icon style="color: white;" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon> -->
             <v-toolbar-title style="color: white;" class="pb-2">
-                <!-- <b class="title">TEMPLATE</b> -->
-                <v-img src="/logooo.png" width="40" class="ml-10"></v-img>
+                <b class="title">JOSHUA TANIA</b>
+                <!-- <v-img src="/logooo.png" width="40" class="ml-10"></v-img> -->
             </v-toolbar-title>
 
             <v-spacer/>
@@ -147,15 +147,8 @@ export default {
                 // The section is fully visible in the viewport
                     console.log(section.id, '?!');
 
-                    //this is the dynamically route appear when scrolling
-                    // if(section.id !== 'goToHome'){
-                        router.push({ hash: `#${section.id}` }); 
-                        routerPath.value = section.id
-                    // }else{
-                        // router.push({ hash: `` });
-                    //     router.push({ hash: `#` }); 
-                        
-                    // }
+                    router.push({ hash: `#${section.id}` }); 
+                    routerPath.value = section.id
                     
                 }
             });
@@ -178,6 +171,32 @@ export default {
 	#app{
         background-color: #f8f8f8;
     }
+    /* scroll baaaaar starts */
+    body {
+        --sb-track-color: #effcff;
+        --sb-thumb-color: #618e96;
+        --sb-size: 25px;
+
+        scrollbar-color: var(--sb-thumb-color) 
+                        var(--sb-track-color);
+    }
+
+    body::-webkit-scrollbar {
+        width: var(--sb-size) 
+    }
+
+    body::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 15px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+        border-radius: 15px;
+        border: 5px solid #f0f0f0;
+    }
+    /* scroll baaaaar ends */
+
     .title{
         color: #343a40;
         font-family: 'Montserrat', sans-serif;
