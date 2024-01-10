@@ -1,8 +1,8 @@
 <template>
-  <div id="stacks" class="justify-center d-flex" style="background-color: #f5f5f5; min-height:800px; padding-top: 100px; padding-bottom: 100px; position: relative;">
+  <div id="stacks" class="justify-center d-flex overflow-hidden" style="background-color: #f5f5f5; min-height:800px; padding-top: 100px; padding-bottom: 100px; position: relative;">
 
-    <v-img style="position: absolute; top: 200px; left: 200px; " width="250px" src="/dotGrid2502503.png"/>
-    <v-img style="position: absolute; top: 200px; right: 200px; " width="500px" src="/dotGrid.png"/>
+    <v-img style="position: absolute; top: 200px; left: 200px;" width="250px" src="/dotGrid2502503.png"/>
+    <v-img style="position: absolute; top: 200px; right: 200px;" width="500px" src="/dotGrid.png"/>
 
     <div id="stack-canvas">
         <!-- <h1 style="">This is Stacks</h1>
@@ -74,3 +74,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .overflow-hidden {
+        overflow: hidden !important;
+    }
+</style>
