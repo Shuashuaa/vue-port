@@ -5,7 +5,7 @@
 
 		<div id="canvas" class="d-block d-sm-block d-md-none">
 			<div class="mb-16 text-center" style="display: flex; flex-direction: column; align-items: center;">
-				<v-img src="/logooo.png" width="100" class="mb-2"/>
+				<v-img draggable="false" src="/logooo.png" width="100" class="mb-2"/>
 				<p class="text-infos" style="color: #f5f5f5;">@2023 | Made with <v-icon>mdi-heart</v-icon> and <v-icon>mdi-coffee</v-icon> by <br><b style="color: #01b4d2;">Jovi Joshua Tania</b>.</p>
 			</div>
 
@@ -45,7 +45,7 @@
 
 		<div id="canvas" class="d-none d-md-flex d-lg-flex d-xl-flex">
 			<div>
-				<v-img src="/logooo.png" width="100" class="mb-2"/>
+				<v-img draggable="false" src="/logooo.png" width="100" class="mb-2"/>
 				<p class="text-infos" style="color: #f5f5f5;">@2023 | Made with <v-icon>mdi-heart</v-icon> and <v-icon>mdi-coffee</v-icon> by <b style="color: #01b4d2;">Jovi Joshua Tania</b>.</p>
 			</div>
 
@@ -128,4 +128,4 @@ export default {
 		text-decoration: underline;
 		color: #01b4d2;
 	}
-</style>
+</style>yar
