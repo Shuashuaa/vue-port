@@ -15,7 +15,7 @@
 					<div v-for="(project, i) in projects" :key="i">
 						<div class="mb-2 d-flex">
 							<div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-duration="1400" style="width: 50%" class="mr-10">
-								<v-img :src="project.image" width="500" height="500"></v-img>
+								<v-img draggable="false" :src="project.image" width="500" height="500"></v-img>
 							</div>
 							<div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="600" data-aos-duration="1400" style="padding-top: 70px; width: 50%;">
 								<!-- {{i + 1}} -->
@@ -38,7 +38,7 @@
 						<div class="mb-2 d-block">
 
 							<div>
-								<v-img :src="project.image" width="300" height="300"></v-img>
+								<v-img draggable="false" :src="project.image" width="300" height="300"></v-img>
 							</div>
 							<div>
 								<!-- {{i + 1}} -->
@@ -55,7 +55,7 @@
 			</div>
 
 			<a href="#" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-duration="1400" style="position: absolute; right: 40px; border: 3px solid #343a40; border-radius: 100px; padding: 15px;">
-				<v-img width="30" src="https://static.vecteezy.com/system/resources/previews/017/784/924/original/top-arrow-icon-on-transparent-background-free-png.png"/>
+				<v-img draggable="false" width="30" src="https://static.vecteezy.com/system/resources/previews/017/784/924/original/top-arrow-icon-on-transparent-background-free-png.png"/>
 			</a>
 		</div>
 		
@@ -71,30 +71,35 @@ export default {
 	setup() {
 		const projects = ref([
 			{ 
+				id: 1,
 				name: 'Teleprime Solutions Inc.', 
-				link: 'https://github.com/', 
-				image:'https://www.truelogic.com.ph/wp-content/uploads/2020/03/kisspng-responsive-web-design-web-development-web-page-templates-5aebdca853a0c2.5358138415254068883426.png', 
+				link: 'https://shuashuaa.github.io', 
+				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQMECzKAU16qPeul4M4AkFDaTaj9BrpGx6NtR9M1yUJIoZDNTfYWnQclX82ALKnjm44DS5MnC6fZ9qrg2VpOdDIgq10Fw=w1920-h927', 
 				description: 'is a telemarketing, business processing, and comprehensive digital business servicing company portfolio.', 
 				tags: 'Commission | Company Portfolio',
 				status: 'On-going'
 			},
 			{ 
-				name: 'U-Shop', 
-				link: '#', 
-				image:'https://www.truelogic.com.ph/wp-content/uploads/2020/03/kisspng-responsive-web-design-web-development-web-page-templates-5aebdca853a0c2.5358138415254068883426.png', 
-				description: 'Sed mollis, mauris ac condimentum malesuada, purus lectus viverra dui, quis laoreet lectus augue at urna.', 
-				tags: 'Personal | Experimental App',
-				status: 'Pending'
+				id: 2,
+				name: 'Shiyou Sentaku Tool', 
+				link: 'http://shiyou.hrd-s.com/home', 
+				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTXMADBKdc5c-fNSoVR093pMMqnVr9oNTy4xr8ZnQCnsW8u3AsQfDkw69QUYdHO2k8KOdHw13FYR7rc7ibdO56Bs9GnaQ=w1920-h927', 
+				description: 'a selection tool app for ichijo customers', 
+				tags: 'Company System',
+				status: 'On-going'
 			},
 			{ 
+				id: 3,
 				name: 'Amiresponsive', 
 				link: '#', 
-				image:'https://www.truelogic.com.ph/wp-content/uploads/2020/03/kisspng-responsive-web-design-web-development-web-page-templates-5aebdca853a0c2.5358138415254068883426.png', 
+				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTPPhq-nppZWnOKaV0Y98taoNcL6L6M8UPwHkSMCf6S0P3Whox_syl12foUOU-9Semtmt46UmDaJwWtrrTUHqakE-0Yxw=w1920-h927', 
 				description: 'is a tool for developers, especially front-end developers to check the responsiveness of their websites without using an actual gadgets. bu.. but not in prod!.', 
 				tags: 'Personal | Experimental App',
 				status: 'Finished'
 			},
 		])
+
+		// https://my-json-server.typicode.com/viktorLuna/JSONPlaceholder/projects
 
 		return { 
 			projects,
