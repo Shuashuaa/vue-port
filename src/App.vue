@@ -135,28 +135,34 @@ export default {
         const routerPath = ref('');
         routerPath.value = '#';
         
-        document.addEventListener('scroll', function() {
-            
+        const handleScroll = () => {
             const sections = document.querySelectorAll('.section');
+            //
+            const zoomFactor = window.devicePixelRatio || 1;
 
             sections.forEach(section => {
                 const bounding = section.getBoundingClientRect();
 
-                // Check if the section is in the viewport
-                if ( bounding.top >= 0 && bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
-                // The section is fully visible in the viewport
+                // Adjust bounding values based on zoom factor
+                const adjustedTop = bounding.top / zoomFactor;
+                const adjustedBottom = bounding.bottom / zoomFactor;
+
+                // Check if the adjusted section is in the viewport
+                if (adjustedTop >= 0 && adjustedBottom <= (innerHeight || document.documentElement.clientHeight)) {
+                    // The section is fully visible in the viewport
                     console.log(section.id, '?!');
 
-                    router.push({ hash: `#${section.id}` }); 
-                    routerPath.value = section.id
-                    
+                    router.push({ hash: `#${section.id}` });
+                    routerPath.value = section.id;
                 }
             });
-        });
+        }
 
         console.log(routerPath.value, 'hash')
 
         return {
+            handleScroll,
+            
             currentPath,
             routerPath,
 
