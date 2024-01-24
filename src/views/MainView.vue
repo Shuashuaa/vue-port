@@ -1,6 +1,6 @@
 <template>
     <HomeComp />
-    <InfoComp id="info" class="section"/>
+    <InfoComp />
     <Stacks />
     <ProductsComp />
     <ContactComp />
