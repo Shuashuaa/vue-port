@@ -107,12 +107,12 @@
 <script>
 import router from './router/index.js'
 import { useRoute } from 'vue-router'
-import { ref, reactive, watch } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 export default {
     setup() {
 
         const drawer = ref(false);
-        const items = reactive([
+        const items = ref([
             {text:'Home', icon:'mdi-home', to:'#'},
             // {text:'Home', icon:'mdi-home', to:'/'},
             {text:'Info', icon:'mdi-archive-outline', to:'#info'},
@@ -158,11 +158,19 @@ export default {
             });
         }
 
+        // Initial check on page load
+        onMounted(() => {
+            handleScroll();
+        }),
+
+        // Event listeners for scroll and resize
+        document.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', handleScroll);
+
         console.log(routerPath.value, 'hash')
 
         return {
             handleScroll,
-            
             currentPath,
             routerPath,
 
