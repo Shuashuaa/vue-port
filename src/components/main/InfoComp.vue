@@ -1,5 +1,5 @@
 <template>
-	<div class="justify-center d-flex" style="background-color: #f5f5f5; min-height:500px; padding-top: 100px; padding-bottom: 100px; position: relative">
+	<v-card class="justify-center" style="display:flex; min-height:500px; position: relative;">
 		<kinesis-container event="scroll" class="parent d-none d-lg-block d-xl-block" style="position: absolute;">
 			<kinesis-element
 				class="child-pc"
@@ -64,8 +64,8 @@
 
 		<!-- pc -->
 
-		<div  class="d-none d-lg-block d-xl-block " style="width: 60%;">
-
+		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-bottom: 100px;" >
+			<div id="info" class="section" style="height: 100px;"></div>
 			<div class="d-flex">
 				<v-card class="parentBg mr-10" width="50%" elevation="0" color="#f5f5f5" style="border-radius: 50px">
 					<div>
@@ -95,7 +95,7 @@
 				</v-card>
 			</div>
 
-			<v-card class="parentBg pt-12" color="#f5f5f5" elevation="0">
+			<v-card class="parentBg pt-12" color="white" elevation="0">
 				<h3 class="text-infos" style="color: #343a40;">Hello! im,</h3>
 				<h1 class="title-infos" style="color: #343a40;">Joshua Tania</h1>
 
@@ -116,7 +116,7 @@
 
 		<!-- mobile -->
 
-		<div id="info-canvas-mobile" class="d-block d-sm-block d-md-block d-lg-none">
+		<div id="info-canvas-mobile" class="d-block d-sm-block d-md-block d-lg-none" style="padding-top: 100px; padding-bottom: 100px;">
 
 			<v-card class="parentBg"  elevation="0" color="#f5f5f5" style="border-radius: 30px">
 				<div>
@@ -164,7 +164,7 @@
 			</v-card>
 		</div>
 
-	</div>
+	</v-card>
 </template>
 
 <style>
