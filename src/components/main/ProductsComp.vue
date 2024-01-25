@@ -62,13 +62,13 @@
 	</v-card>
 </template>
 
-<script>
+<script setup>
 import AOS from 'aos';
 //Initialize manually in every divs
 AOS.init();
-import { ref, onMounted } from 'vue';
-export default {
-	setup() {
+import { ref } from 'vue';
+// export default {
+// 	setup() {
 		const projects = ref([
 			{ 
 				id: 1,
@@ -101,11 +101,11 @@ export default {
 
 		// https://my-json-server.typicode.com/viktorLuna/JSONPlaceholder/projects
 
-		return { 
-			projects,
-		}
-	}
-}
+		// return { 
+		// 	projects,
+		// }
+// 	}
+// }
 </script>
 
 <style scoped>
