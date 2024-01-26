@@ -1,5 +1,5 @@
 <template>
-	<v-card class="justify-center" style="display:flex; min-height:500px; position: relative;">
+	<v-card class="justify-center" style="display:flex; min-height:500px; position: relative; background-color: #f5f5f5;">
 		<kinesis-container event="scroll" class="parent d-none d-lg-block d-xl-block" style="position: absolute;">
 			<kinesis-element
 				class="child-pc"
@@ -64,7 +64,7 @@
 
 		<!-- pc -->
 
-		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-bottom: 100px;" >
+		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-bottom: 100px; background-color: #f5f5f5;" >
 			<div id="info" class="section" style="height: 100px;"></div>
 			<div class="d-flex">
 				<v-card class="parentBg mr-10" width="50%" elevation="0" color="#f5f5f5" style="border-radius: 50px">
@@ -95,7 +95,7 @@
 				</v-card>
 			</div>
 
-			<v-card class="parentBg pt-12" color="white" elevation="0">
+			<v-card class="parentBg pt-12" color="#f5f5f5" elevation="0">
 				<h3 class="text-infos" style="color: #343a40;">Hello! im,</h3>
 				<h1 class="title-infos" style="color: #343a40;">Joshua Tania</h1>
 
