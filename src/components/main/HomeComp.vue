@@ -10,8 +10,8 @@
 		<center>
 			<kinesis-container
 			style="
-				margin-top: 150px;
-				margin-bottom: 200px;
+				margin-top: 20vh;
+				margin-bottom: 20vh;
 				justify-content: center;
 			"
 			>
