@@ -1,5 +1,7 @@
 <template>
 	<v-card class="justify-center" style="display:flex; min-height:500px; position: relative; background-color: #f5f5f5;">
+		<!-- rouuuute -->
+		<div id="info" class="section" style="height: 100px;"></div>
 		<kinesis-container event="scroll" class="parent d-none d-lg-block d-xl-block" style="position: absolute;">
 			<kinesis-element
 				class="child-pc"
@@ -64,8 +66,8 @@
 
 		<!-- pc -->
 
-		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-bottom: 100px; background-color: #f5f5f5;" >
-			<div id="info" class="section" style="height: 100px;"></div>
+		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-top: 100px; padding-bottom: 100px; background-color: #f5f5f5;" >
+			<!-- <div id="info" class="section" style="height: 100px;"></div> -->
 			<div class="d-flex">
 				<v-card class="parentBg mr-10" width="50%" elevation="0" color="#f5f5f5" style="border-radius: 50px">
 					<div>
@@ -174,7 +176,7 @@
 		
 	}.child {
 		margin-left: 3%;
-		margin-top: 1%;
+		margin-top: 15%;
 		border-radius: 50vh;
 		width: 400px;
 		height: 400px;
@@ -183,7 +185,7 @@
 
 	}.child1{
 		margin-left: 78%;
-		margin-top: 20%;
+		margin-top: 35%;
 		border-radius: 50vh;
 		width: 75px;
 		height: 75px;
@@ -191,7 +193,7 @@
 
 	}.child2{
 		margin-left: 87%;
-		margin-top: 20%;
+		margin-top: 35%;
 		border-radius: 50vh;
 		width: 25px;
 		height: 25px;
