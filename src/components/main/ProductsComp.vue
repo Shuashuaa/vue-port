@@ -73,7 +73,7 @@ import { ref } from 'vue';
 			{ 
 				id: 1,
 				name: 'Teleprime Solutions Inc.', 
-				link: 'https://shuashuaa.github.io', 
+				link: 'https://teleprimesolutionsinc.netlify.app/', 
 				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQMECzKAU16qPeul4M4AkFDaTaj9BrpGx6NtR9M1yUJIoZDNTfYWnQclX82ALKnjm44DS5MnC6fZ9qrg2VpOdDIgq10Fw=w1920-h927', 
 				description: 'is a telemarketing, business processing, and comprehensive digital business servicing company portfolio.', 
 				tags: 'Commission | Company Portfolio',
@@ -91,7 +91,7 @@ import { ref } from 'vue';
 			{ 
 				id: 3,
 				name: 'Amiresponsive', 
-				link: '#', 
+				link: 'https://amiresponsive.netlify.app/', 
 				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTPPhq-nppZWnOKaV0Y98taoNcL6L6M8UPwHkSMCf6S0P3Whox_syl12foUOU-9Semtmt46UmDaJwWtrrTUHqakE-0Yxw=w1920-h927', 
 				description: 'is a tool for developers, especially front-end developers to check the responsiveness of their websites without using an actual gadgets. bu.. but not in prod!.', 
 				tags: 'Personal | Experimental App',
