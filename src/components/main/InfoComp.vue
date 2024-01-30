@@ -1,7 +1,7 @@
 <template>
 	<v-card class="justify-center" style="display:flex; min-height:500px; position: relative; background-color: #f5f5f5;">
 		<!-- rouuuute -->
-		<div id="info" class="section" style="height: 100px;"></div>
+		<div id="info" class="section"></div>
 		<kinesis-container event="scroll" class="parent d-none d-lg-block d-xl-block" style="position: absolute;">
 			<kinesis-element
 				class="child-pc"
@@ -66,7 +66,7 @@
 
 		<!-- pc -->
 
-		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-top: 100px; padding-bottom: 100px; background-color: #f5f5f5;" >
+		<div class=" d-none d-lg-block d-xl-block " style="width: 60%; padding-top: 180px; padding-bottom: 100px; background-color: #f5f5f5;" >
 			<!-- <div id="info" class="section" style="height: 100px;"></div> -->
 			<div class="d-flex">
 				<v-card class="parentBg mr-10" width="50%" elevation="0" color="#f5f5f5" style="border-radius: 50px">
@@ -201,7 +201,7 @@
 
 	}.child-pc {
 		margin-left: 10%;
-		margin-top: 1%;
+		margin-top: 7%;
 		border-radius: 50vh;
 		width: 400px;
 		height: 400px;
