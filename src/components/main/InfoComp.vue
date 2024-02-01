@@ -1,10 +1,11 @@
 <template>
 	<v-card class="justify-center" style="display:flex; min-height:500px; position: relative; background-color: #f5f5f5;">
 		<!-- rouuuute -->
-		<div id="info" class="section"></div>
+		<v-card color="red" id="info" class="section"></v-card>
 		<kinesis-container event="scroll" class="parent d-none d-lg-block d-xl-block" style="position: absolute;">
 			<kinesis-element
-				class="child-pc"
+				id="info"
+				class="section child-pc"
 				type="scale"
 				transformOrigin="50% 150%"
 				:strength="-8"
