@@ -74,7 +74,7 @@ import { ref } from 'vue';
 				id: 1,
 				name: 'Teleprime Solutions Inc.', 
 				link: 'https://teleprimesolutionsinc.netlify.app/', 
-				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQMECzKAU16qPeul4M4AkFDaTaj9BrpGx6NtR9M1yUJIoZDNTfYWnQclX82ALKnjm44DS5MnC6fZ9qrg2VpOdDIgq10Fw=w1920-h927', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2F6S90nlYEEHc7JNAfvpKF%2Ftsi.png?alt=media&token=7fa6ce71-b039-4fe0-aef3-618b4abb9c7b', 
 				description: 'is a telemarketing, business processing, and comprehensive digital business servicing company portfolio.', 
 				tags: 'Commission | Company Portfolio',
 				status: 'On-going'
@@ -83,7 +83,7 @@ import { ref } from 'vue';
 				id: 2,
 				name: 'Shiyou Sentaku Tool', 
 				link: 'http://shiyou.hrd-s.com/home', 
-				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTXMADBKdc5c-fNSoVR093pMMqnVr9oNTy4xr8ZnQCnsW8u3AsQfDkw69QUYdHO2k8KOdHw13FYR7rc7ibdO56Bs9GnaQ=w1920-h927', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FmnOz9aWqps7BL1ZnhP3f%2FshiyouSentakuTool.png?alt=media&token=b75af8d0-88c7-4de5-90c9-dcfda7236c93', 
 				description: 'a selection tool app for ichijo customers', 
 				tags: 'Company System',
 				status: 'On-going'
@@ -92,7 +92,7 @@ import { ref } from 'vue';
 				id: 3,
 				name: 'Amiresponsive', 
 				link: 'https://amiresponsive.netlify.app/', 
-				image:'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTPPhq-nppZWnOKaV0Y98taoNcL6L6M8UPwHkSMCf6S0P3Whox_syl12foUOU-9Semtmt46UmDaJwWtrrTUHqakE-0Yxw=w1920-h927', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2F3KBiZnlzzhdtnGVfdfAH%2Famiresponsive.png?alt=media&token=d1d084f9-d5ee-4ec4-8e2a-d4ab9efc807d', 
 				description: 'is a tool for developers, especially front-end developers to check the responsiveness of their websites without using an actual gadgets. bu.. but not in prod!.', 
 				tags: 'Personal | Experimental App',
 				status: 'Finished'
