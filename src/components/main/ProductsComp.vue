@@ -74,7 +74,7 @@ import { ref } from 'vue';
 				id: 1,
 				name: 'Teleprime Solutions Inc.', 
 				link: 'https://teleprimesolutionsinc.netlify.app/', 
-				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2F6S90nlYEEHc7JNAfvpKF%2Ftsi.png?alt=media&token=7fa6ce71-b039-4fe0-aef3-618b4abb9c7b', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FYMi3BCKyQx9Ve0Ucsgk2%2Ftsi.png?alt=media&token=ad1f2ef0-6bfa-46a5-b92a-df18cceb9d7a', 
 				description: 'is a telemarketing, business processing, and comprehensive digital business servicing company portfolio.', 
 				tags: 'Commission | Company Portfolio',
 				status: 'On-going'
@@ -83,7 +83,7 @@ import { ref } from 'vue';
 				id: 2,
 				name: 'Shiyou Sentaku Tool', 
 				link: 'http://shiyou.hrd-s.com/home', 
-				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FmnOz9aWqps7BL1ZnhP3f%2FshiyouSentakuTool.png?alt=media&token=b75af8d0-88c7-4de5-90c9-dcfda7236c93', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FDezP6EoFcccLIizP0zdM%2FshiyouSentakuTool.png?alt=media&token=1cf49dcb-a50c-4fc9-8850-202babffc9cc', 
 				description: 'a selection tool app for ichijo customers', 
 				tags: 'Company System',
 				status: 'On-going'
@@ -92,7 +92,7 @@ import { ref } from 'vue';
 				id: 3,
 				name: 'Amiresponsive', 
 				link: 'https://amiresponsive.netlify.app/', 
-				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2F3KBiZnlzzhdtnGVfdfAH%2Famiresponsive.png?alt=media&token=d1d084f9-d5ee-4ec4-8e2a-d4ab9efc807d', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FSFqufvc1UUZy6dDcyYns%2Famiresponsive.png?alt=media&token=7d495dc9-9e34-4a4e-8a8d-a9a590191389', 
 				description: 'is a tool for developers, especially front-end developers to check the responsiveness of their websites without using an actual gadgets. bu.. but not in prod!.', 
 				tags: 'Personal | Experimental App',
 				status: 'Finished'
