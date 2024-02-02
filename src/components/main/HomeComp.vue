@@ -2,57 +2,60 @@
 	<v-card
 		:height="scHeight"
 		id="#"
-		class="justify-center d-flex bg section"
-		style="background-color: #f5f5f5"
+		class="justify-center bg section"
+		style="background-color: #f5f5f5;"
 		elevation="0"
+		
 	>
 		<div id="canvas">
-		<center>
-			<kinesis-container
-			style="
-				margin-top: 20vh;
-				margin-bottom: 20vh;
-				justify-content: center;
-			"
-			>
-			<div
+			<center>
+				<kinesis-container
 				style="
-				display: flex;
-				justify-content: center;
-				position: absolute;
-				left: 0;
-				right: 0;
-				margin: 0 auto;
+					height: 100vh;
+					width: 100vw;
+					padding-top: 20vh;
+					justify-content: center;
 				"
-			>
-				<kinesis-element :strength="20">
-				<!-- <h1 class="title">Joshua Tania</h1> -->
-				</kinesis-element>
-			</div>
-			<kinesis-element :strength="20" type="depth">
-				<v-img src="/logooo.png" width="250"></v-img>
-			</kinesis-element>
+				>
+					<div
+						style="
+						display: flex;
+						justify-content: center;
+						position: absolute;
+						left: 0;
+						right: 0;
+						margin: 0 auto;
+						"
+					>
+						<kinesis-element :strength="20">
+						<!-- <h1 class="title">Joshua Tania</h1> -->
+						</kinesis-element>
+					</div>
+					<kinesis-element :strength="20" type="depth">
+						<v-img src="/logooo.png" width="250"></v-img>
+					</kinesis-element>
 
-			<kinesis-element
-				:strength="20"
-				style="
-				position: absolute;
-				left: 20px;
-				right: 0;
-				bottom: 1px;
-				margin: 0 auto;
-				"
-			>
-				<!-- <p class="text">asdadsasd</p> -->
-			</kinesis-element>
-			</kinesis-container>
+					<kinesis-element
+						:strength="20"
+						style="
+						position: relative;
+						left: 20px;
+						right: 0;
+						top: 1px;
+						margin-bottom: 20vh;
+						"
+					>
+						<!-- <p class="text">asdadsasd</p> -->
+					</kinesis-element>
 
-			<div style="position: relative">
-			<a class="double-down" href="#info">
-				<v-img src="/double-down.png" width="30"></v-img>
-			</a>
-			</div>
-		</center>
+					<div style="position: relative">
+						<a class="double-down" href="#info">
+							<v-img src="/double-down.png" width="30"></v-img>
+						</a>
+					</div>
+				</kinesis-container>
+
+			</center>
 		</div>
 	</v-card>
 </template>
