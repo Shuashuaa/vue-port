@@ -22,10 +22,11 @@
 				</a>
 			</div>
 
-			<div style="text-align: center;">
-				<a href="#goToContact" class="title">
-					<v-btn outlined class="mt-1" color="black" elevation="0">
-					Contact
+			<div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
+                <v-divider style="margin-left: 10%;" width="80%"/>
+				<a href="https://github.com/Shuashuaa" class="title">
+					<v-btn icon class="mt-5" elevation="0">
+                        <v-icon style="font-size: 50px;">mdi-github</v-icon>
 					</v-btn>
 				</a>
 			</div>
