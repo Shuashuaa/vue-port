@@ -103,13 +103,13 @@ export default {
 				{id: 3, name: 'projects', link: '#projects'},
 			],
 			important_links: [
-				{id: 1, name: 'Am I Responsive?', link: 'http://localhost:5173/amiresponsive/', icon: ''},
+				{id: 1, name: 'Am I Responsive?', link: '#', icon: ''},
 				
 			],
 			social_links: [
-				{id: 1, name: 'linkedin', link: 'www.github.com/shuashuaa', icon: ''},
+				{id: 1, name: 'linkedin', link: 'https://www.linkedin.com/in/jovi-joshua-tania-b6586622a/', icon: ''},
 				{id: 2, name: 'github', link: 'www.github.com/shuashuaa', icon: ''},
-				{id: 3, name: 'x', link: 'www.github.com/shuashuaa', icon: ''},
+				{id: 3, name: 'x', link: '#', icon: ''},
 				{id: 4, name: 'e-mail', link: 'jovijoshuatania027@gmail.com', icon: ''},
 			],
 			
