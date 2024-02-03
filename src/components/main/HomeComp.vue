@@ -7,7 +7,7 @@
 		elevation="0"
 		
 	>
-		<div id="canvas">
+		<div id="canvas" class=" d-none d-lg-block d-xl-block ">
 			<center>
 				<kinesis-container
 				style="
@@ -42,7 +42,7 @@
 						left: 20px;
 						right: 0;
 						top: 1px;
-						margin-bottom: 20vh;
+						margin-bottom: 18vh;
 						"
 					>
 						<!-- <p class="text">asdadsasd</p> -->
@@ -55,6 +55,41 @@
 					</div>
 				</kinesis-container>
 
+			</center>
+		</div>
+
+		<!-- style="
+			height: 100vh;
+			width: 100vw;
+			padding-top: 20vh;
+			justify-content: center;
+		" -->
+
+		<div id="canvas" class="d-block d-sm-block d-md-block d-lg-none"
+		style="
+			height: 100vh;
+			width: 100vw;
+			padding-top: 20vh;
+			justify-content: center;
+		" >
+			<center>
+				<div
+					style="
+					display: flex;
+					justify-content: center;
+					position: absolute;
+					left: 0;
+					right: 0;
+					"
+				>
+				</div>
+					<v-img src="/logooo.png" width="250" style="margin-bottom: 18vh;"></v-img>
+
+				<div style="position: relative">
+					<a class="double-down" href="#info">
+						<v-img src="/double-down.png" width="30"></v-img>
+					</a>
+				</div>
 			</center>
 		</div>
 	</v-card>
