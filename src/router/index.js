@@ -5,7 +5,7 @@ import amIResponsive from '../components/features/amIResponsive.vue'
 import Error from '../components/Error.vue'
 
 const router = new createRouter({
-	history: createWebHistory(process.env.BASE_URL),
+	history: createWebHistory(),
 	mode: 'history',
 	routes: [
 		{
@@ -33,11 +33,17 @@ const router = new createRouter({
 
 router.beforeEach((to, from, next) => {
     if(to.path !== '/home/'){
-      if(to.path == '/'){
-        next('/home/')
-      }else{
-        next()
-      }
+      	if(to.path == '/'){
+        	next('/home/')
+	  	}else if(to.path == '/home/##'){
+			next()
+		}else if(to.path == '/home/#info'){
+			next()
+		}else if(to.path == '/home/#projects'){
+			next()
+		}else{
+			next()
+		}
     }else{
       next()
     }
