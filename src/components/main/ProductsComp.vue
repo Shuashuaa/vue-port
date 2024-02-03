@@ -91,7 +91,7 @@ import { ref } from 'vue';
 			{ 
 				id: 3,
 				name: 'Amiresponsive', 
-				link: 'https://amiresponsive.netlify.app/', 
+				link: '#', 
 				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FSFqufvc1UUZy6dDcyYns%2Famiresponsive.png?alt=media&token=7d495dc9-9e34-4a4e-8a8d-a9a590191389', 
 				description: 'is a tool for developers, especially front-end developers to check the responsiveness of their websites without using an actual gadgets. bu.. but not in prod!.', 
 				tags: 'Personal | Experimental App',
