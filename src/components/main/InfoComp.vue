@@ -104,7 +104,7 @@
 
 				<p class="pb-5 text-infos" style="text-overflow: wrap; color: #343a40;">
 					A Passionate Front-end Developer and an aspiring
-					full-stack developer focusing on Web App Development
+					full-stack developer focusing on Web App Development.
 					Currently Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u> & <u>Vuetify3</u> and 
 					<u>Laravel 9</u>. 
 					<br>
@@ -137,7 +137,7 @@
 
 						<p class="pb-5 text-infos" style="text-overflow: wrap; color: #343a40;">
 							A Passionate Front-end Developer and an aspiring
-							full-stack developer focusing on Web App Development
+							full-stack developer focusing on Web App Development.
 							Currently Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u> & <u>Vuetify3</u> and 
 							<u>Laravel 9</u>. 
 							<br>
