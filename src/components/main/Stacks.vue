@@ -32,6 +32,7 @@
                 <p class="pt-2 text-stack">{{stack1.name}}</p>
             </v-card>
         </div>
+        <p class="mt-3 text-stack" style="font-size: 15px;">and more..</p>
     </div>
 
   </div>
