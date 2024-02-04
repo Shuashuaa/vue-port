@@ -8,13 +8,13 @@ const router = new createRouter({
 	mode: 'history',
 	routes: [
 		{
-			path: '/home/',
+			path: '/',
 			name: 'home',
 			component: HomeView,
 			meta: { title: 'Joshua Tania' },//##
 		},
 		{
-			path: '/:catchAll(.*)',
+			path: '/#/:catchAll(.*)',
 			name: 'error',
 			component: Error,
 			meta: { title: '404 | Isekai out' },//##
@@ -25,9 +25,9 @@ const router = new createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    if(to.path !== '/home/'){
-      if(to.path == '/'){
-        next('/home/')
+    if(to.path !== '/'){
+      if(to.path == '/home'){
+        next('/')
       }else{
         next()
       }
