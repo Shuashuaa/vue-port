@@ -14,7 +14,7 @@ const router = new createRouter({
 			meta: { title: 'Joshua Tania' },//##
 		},
 		{
-			path: '/#/:catchAll(.*)',
+			path: '/:catchAll(.*)',
 			name: 'error',
 			component: Error,
 			meta: { title: '404 | Isekai out' },//##
