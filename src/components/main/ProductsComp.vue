@@ -54,7 +54,7 @@
 				</div>
 			</div>
 
-			<a href="#" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-duration="1400" style="position: absolute; right: 40px; border: 3px solid #343a40; border-radius: 100px; padding: 15px;">
+			<a href="/##" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-duration="1400" style="position: absolute; right: 40px; border: 3px solid #343a40; border-radius: 100px; padding: 15px;">
 				<v-img draggable="false" width="30" src="https://static.vecteezy.com/system/resources/previews/017/784/924/original/top-arrow-icon-on-transparent-background-free-png.png"/>
 			</a>
 		</div>
