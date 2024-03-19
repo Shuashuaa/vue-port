@@ -45,8 +45,9 @@ export default {
         const stacks = ref([
             { name: 'VUEJS', image: 'https://vuejs.org/images/logo.png' },
             { name: 'VITE', image: 'https://vitejs.dev/logo-with-shadow.png' },
-            { name: 'PINIA', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pinialogo.svg/1200px-Pinialogo.svg.png' },
+            // { name: 'PINIA', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pinialogo.svg/1200px-Pinialogo.svg.png' },
             { name: 'VUETIFY', image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg' },
+            { name: 'TAILWINDCSS', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png' },
             { name: 'LARAVEL', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png' }
         ])
 
