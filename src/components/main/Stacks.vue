@@ -25,7 +25,7 @@
 
         <div class="justify-center" style="margin-top: 20px; display: flex; flex-wrap: wrap;">
             <v-card v-for="(stack1, i) in otherStacks" :key="i" class="pa-5 mr-1 mt-1 d-flex stack1" width="200" color="#f5f5f5" 
-            style="border: 1px solid rgba(52, 58, 64, 0.62); border-radius: 1px; flex-grow: 4; " elevation="1"
+            style="border: 1px solid rgba(52, 58, 64, 0.62); border-radius: 1px; flex-grow: 1; " elevation="1"
             >
                 <img draggable="false" :src="stack1.image" style="height: 30px;"/>
                 <v-spacer/>
