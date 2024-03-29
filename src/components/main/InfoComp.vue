@@ -103,10 +103,15 @@
 				<h1 class="title-infos" style="color: #343a40;">Joshua Tania</h1>
 
 				<p class="pb-5 text-infos" style="text-overflow: wrap; color: #343a40;">
-					A Passionate Front-end Developer and an aspiring
+					A Passionate Full-Stack Developer who enjoy solving problems,
+					creating retina display ready user interfaces, Exploring about latest trends and technologies,
+					focusing on Web App Development. and Currently Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u>, <u>TailwindCss</u> and 
+					<u>Laravel</u>. 
+
+					<!-- A Passionate Front-end Developer and an aspiring
 					full-stack developer focusing on Web App Development.
 					Currently Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u>, <u>TailwindCss</u> and 
-					<u>Laravel 9</u>. 
+					<u>Laravel 9</u>.  -->
 					<br>
 					<br>
 					Graduated with Bachelor of Science in Information Technology at Cavite State University - Indang Main Campus, Philippines.
@@ -136,10 +141,15 @@
 						<h1 class="title-infos" style="color: #343a40;">Joshua Tania</h1>
 
 						<p class="pb-5 text-infos" style="text-overflow: wrap; color: #343a40;">
-							A Passionate Front-end Developer and an aspiring
+							A Passionate Full-Stack Developer who enjoy solving problems,
+							creating retina display ready user interfaces, Exploring about latest trends and technologies,
+							focusing on Web App Development. and Currently Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u>, <u>TailwindCss</u> and 
+							<u>Laravel</u>. 
+
+							<!-- A Passionate Front-end Developer and an aspiring
 							full-stack developer focusing on Web App Development.
 							Currently Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u>, <u>TailwindCss</u> and 
-							<u>Laravel 9</u>. 
+							<u>Laravel 9</u>.  -->
 							<br>
 							<br>
 							Graduated with Bachelor of Science in Information Technology at Cavite State University - Indang Main Campus, Philippines.
