@@ -82,7 +82,7 @@ import { ref } from 'vue';
 			{ 
 				id: 2,
 				name: 'Shiyou Sentaku Tool', 
-				link: 'http://shiyou.hrd-s.com/home', 
+				link: 'https://shiyoutest.ihs-w.com/', 
 				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FDezP6EoFcccLIizP0zdM%2FshiyouSentakuTool.png?alt=media&token=1cf49dcb-a50c-4fc9-8850-202babffc9cc', 
 				description: 'a selection tool app for ichijo customers', 
 				tags: 'Company System',
