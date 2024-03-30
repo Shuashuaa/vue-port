@@ -14,7 +14,7 @@
 				<div>
 					<h3 class="title-infos mb-5" style="color: white;">Social Links</h3>
 					<div class="link" v-for="(social_link, i) in footerData.social_links" :key="i">
-						<a class="text-infos" style="color: white; text-decoration: none;" :href="social_link.link">
+						<a class="text-infos" style="color: white; text-decoration: none; margin-buttom: 5px;" :href="social_link.link">
 							{{social_link.name}}
 						</a>
 					</div>
@@ -106,23 +106,23 @@ export default {
 	setup() {
 		const footerData = ref({
 			nav_links: [
-				{id: 1, name: 'home', link: '#'},
-				{id: 2, name: 'info', link: '#info'},
-				{id: 3, name: 'projects', link: '#projects'},
+				{id: 1, name: 'Home', link: '#'},
+				{id: 2, name: 'Info', link: '#info'},
+				{id: 3, name: 'Projects', link: '#projects'},
 			],
 			important_links: [
 				{id: 1, name: 'Am I Responsive?', link: 'https://amiresponsive.netlify.app', icon: ''},
 				
 			],
 			social_links: [
-				{id: 1, name: 'linkedin', link: 'https://www.linkedin.com/in/jovi-joshua-tania-b6586622a/', icon: ''},
-				{id: 2, name: 'github', link: 'www.github.com/shuashuaa', icon: ''},
-				{id: 3, name: 'x', link: '#', icon: ''},
-				{id: 4, name: 'e-mail', link: 'jovijoshuatania027@gmail.com', icon: ''},
+				{id: 1, name: 'Linkedin', link: 'https://www.linkedin.com/in/jovi-joshua-tania-b6586622a/', icon: ''},
+				{id: 2, name: 'Github', link: 'www.github.com/shuashuaa', icon: ''},
+				{id: 3, name: 'X', link: '#', icon: ''},
+				{id: 4, name: 'E-mail', link: 'jovijoshuatania027@gmail.com', icon: ''},
 			],
 			
 			others: [
-				{id: 1, name: 'stacks', link: '#stacks', icon: ''},
+				{id: 1, name: 'Stacks', link: '#stacks', icon: ''},
 			]
 		})
 
