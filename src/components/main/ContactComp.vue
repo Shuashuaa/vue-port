@@ -103,7 +103,7 @@ export default {
 				{id: 3, name: 'projects', link: '#projects'},
 			],
 			important_links: [
-				{id: 1, name: 'Am I Responsive?', link: '#', icon: ''},
+				{id: 1, name: 'Am I Responsive?', link: 'https://amiresponsive.netlify.app', icon: ''},
 				
 			],
 			social_links: [
