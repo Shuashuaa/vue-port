@@ -72,6 +72,15 @@ import { ref } from 'vue';
 		const projects = ref([
 			{ 
 				id: 1,
+				name: 'Shiyou Sentaku Tool', 
+				link: 'https://shiyoutest.ihs-w.com/', 
+				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FDezP6EoFcccLIizP0zdM%2FshiyouSentakuTool.png?alt=media&token=1cf49dcb-a50c-4fc9-8850-202babffc9cc', 
+				description: 'a selection tool app for ichijo customers', 
+				tags: 'Ecommerce',
+				status: 'Finished'
+			},
+			{ 
+				id: 2,
 				name: 'Teleprime Solutions Inc.', 
 				link: 'https://teleprimesolutionsinc.netlify.app/', 
 				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FYMi3BCKyQx9Ve0Ucsgk2%2Ftsi.png?alt=media&token=ad1f2ef0-6bfa-46a5-b92a-df18cceb9d7a', 
@@ -80,20 +89,11 @@ import { ref } from 'vue';
 				status: 'On-going'
 			},
 			{ 
-				id: 2,
-				name: 'Shiyou Sentaku Tool', 
-				link: 'https://shiyoutest.ihs-w.com/', 
-				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FDezP6EoFcccLIizP0zdM%2FshiyouSentakuTool.png?alt=media&token=1cf49dcb-a50c-4fc9-8850-202babffc9cc', 
-				description: 'a selection tool app for ichijo customers', 
-				tags: 'Company System',
-				status: 'On-going'
-			},
-			{ 
 				id: 3,
 				name: 'Amiresponsive', 
 				link: 'https://amiresponsive.netlify.app/rspnsv', 
 				image:'https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FSFqufvc1UUZy6dDcyYns%2Famiresponsive.png?alt=media&token=7d495dc9-9e34-4a4e-8a8d-a9a590191389', 
-				description: 'is a tool for developers, especially front-end developers to check the responsiveness of their websites without using an actual gadgets. bu.. but not in prod!.', 
+				description: 'is a tool to check the responsiveness of websites without using an actual gadgets. bu.. but not for prod!.', 
 				tags: 'Personal | Experimental App',
 				status: 'Finished'
 			},
