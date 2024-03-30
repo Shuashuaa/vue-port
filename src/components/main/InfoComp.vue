@@ -118,7 +118,7 @@
 
 				</p>
 				
-				<v-btn class="text-infos" variant="outlined" color="#343a40">My Portfolio</v-btn>
+				<v-btn class="text-infos" variant="outlined" color="#343a40" href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FOzPekrMshmMVjvfs91or%2FPortfolio.pdf?alt=media&token=9e776117-695f-4019-aa44-f63e94cb57a5" target="_blank">My Portfolio</v-btn>
 			</v-card>
 		</div>
 
@@ -155,7 +155,7 @@
 							Graduated with Bachelor of Science in Information Technology at Cavite State University - Indang Main Campus, Philippines.
 						</p>
 						
-						<v-btn class="text-infos" variant="outlined" color="#343a40">My Portfolio</v-btn>
+						<v-btn class="text-infos" variant="outlined" color="#343a40" href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyHbBE69Z0jnLp7uNqpd2%2Fuploads%2FOzPekrMshmMVjvfs91or%2FPortfolio.pdf?alt=media&token=9e776117-695f-4019-aa44-f63e94cb57a5" target="_blank">My Portfolio</v-btn>
 					</v-card>
 					
 				</v-card>
