@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="btn" v-for="(item, index) in items" :key="index" :to="item.to" style="text-align: center;">
-				<a :href="item.to" style="text-decoration: none; display: block;">
+				<a :href="item.to" target="_blank" style="text-decoration: none; display: block;">
 
 					<p class="mobile-items text">
 						<!-- <v-icon>{{ item.icon }}</v-icon>   -->
@@ -24,7 +24,7 @@
 
 			<div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
                 <v-divider style="margin-left: 10%;" width="80%"/>
-				<a href="https://github.com/Shuashuaa" class="title">
+				<a href="https://github.com/Shuashuaa" target="_blank" class="title">
 					<v-btn icon class="mt-5" elevation="0">
                         <v-icon style="font-size: 50px;">mdi-github</v-icon>
 					</v-btn>
@@ -92,7 +92,7 @@
 
 			<v-divider vertical/>
 
-            <v-btn href="https://www.github.com/shuashuaa" icon class="mx-10 mb-2">
+            <v-btn href="https://www.github.com/shuashuaa" target="_blank" icon class="mx-10 mb-2">
                 <v-icon>mdi-github</v-icon>
             </v-btn>
     
