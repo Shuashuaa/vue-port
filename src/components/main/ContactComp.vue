@@ -10,14 +10,6 @@
 			</div>
 
 			<div class="d-flex justify-center">
-				<!-- <div>
-					<h3 class="title-infos mb-5" style="color: white;">Important Links</h3>
-					<div class="link" v-for="(important_link, i) in footerData.important_links" :key="i">
-						<a class="text-infos" style="color: white; text-decoration: none;" :href="important_link.link">
-							{{important_link.name}}
-						</a>
-					</div>
-				</div> -->
 
 				<div>
 					<h3 class="title-infos mb-5" style="color: white;">Social Links</h3>
@@ -29,13 +21,29 @@
 				</div>
 
 				<div class="ml-15">
-				<h3 class="title-infos mb-5" style="color: white;">Others</h3>
-				<div class="link" v-for="(other, i) in footerData.others" :key="i">
-					<a class="text-infos link" style="color: white; text-decoration: none;" :href="other.link">
-						{{other.name}}
-					</a>
+					<h3 class="title-infos mb-5" style="color: white;">Important Links</h3>
+					<div class="link" v-for="(important_link, i) in footerData.important_links" :key="i">
+						<a class="text-infos" style="color: white; text-decoration: none;" :href="important_link.link">
+							{{important_link.name}}
+						</a>
+					</div>
+
+					<h3 class="title-infos my-5" style="color: white;">Others</h3>
+					<div class="link" v-for="(other, i) in footerData.others" :key="i">
+						<a class="text-infos link" style="color: white; text-decoration: none;" :href="other.link">
+							{{other.name}}
+						</a>
+					</div>
 				</div>
-			</div>
+
+				<!-- <div class="ml-15">
+					<h3 class="title-infos mb-5" style="color: white;">Others</h3>
+					<div class="link" v-for="(other, i) in footerData.others" :key="i">
+						<a class="text-infos link" style="color: white; text-decoration: none;" :href="other.link">
+							{{other.name}}
+						</a>
+					</div>
+				</div> -->
 			</div>
 
 			
