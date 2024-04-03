@@ -1,7 +1,5 @@
 # vue-portfolio
 
-- [ ] link amiresponsive
-
 ## Project setup
 ```
 yarn install
