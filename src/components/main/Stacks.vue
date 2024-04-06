@@ -64,7 +64,7 @@ export default {
             { name: 'GITLAB', image: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png' },
             { name: 'POSTMAN', image: 'https://cdn.worldvectorlogo.com/logos/postman.svg' },
             { name: 'PINIA', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pinialogo.svg/1200px-Pinialogo.svg.png' },
-            { name: 'JQUERY', image: 'https://cdn.worldvectorlogo.com/logos/jquery-4.svg' },
+            { name: 'AXIOS', image: 'https://avatars.githubusercontent.com/u/32372333?s=280&v=4' },
             { name: 'VSCODE', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png' },
             { name: 'NPMJS', image: 'https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png' },
             { name: 'YARNPKG', image: 'https://avatars.githubusercontent.com/u/22247014?s=280&v=4' },
