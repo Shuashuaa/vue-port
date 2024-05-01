@@ -116,7 +116,7 @@ export default {
 			],
 			social_links: [
 				{id: 1, name: 'Linkedin', link: 'https://www.linkedin.com/in/jovi-joshua-tania-b6586622a/', icon: ''},
-				{id: 2, name: 'Github', link: 'www.github.com/shuashuaa', icon: ''},
+				{id: 2, name: 'Github', link: 'https://github.com/Shuashuaa', icon: ''},
 				{id: 3, name: 'X', link: '#', icon: ''},
 				{id: 4, name: 'E-mail', link: 'jovijoshuatania027@gmail.com', icon: ''},
 			],
