@@ -104,7 +104,7 @@
 
 				<p class="pb-5 text-infos" style="text-overflow: wrap; color: #343a40;">
 					A passionate full-stack developer who enjoys solving problems, creating retina display-ready user interfaces, exploring the latest trends and technologies, and
-					focusing on Web App Development. Currently, Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u>, <u>TailwindCss</u> and 
+					focusing on Web App Development. Currently, Using <u>Vuejs3</u>, <u>TypeScript</u>, <u>Vite</u>, <u>TailwindCss</u> and 
 					<u>Laravel</u>. 
 
 					<!-- A Passionate Front-end Developer and an aspiring
@@ -141,7 +141,7 @@
 
 						<p class="pb-5 text-infos" style="text-overflow: wrap; color: #343a40;">
 							A passionate full-stack developer who enjoys solving problems, creating retina display-ready user interfaces, exploring the latest trends and technologies, and
-							focusing on Web App Development. Currently, Using <u>Vuejs3</u>, <u>Pinia</u>, <u>Vite</u>, <u>TailwindCss</u> and 
+							focusing on Web App Development. Currently, Using <u>Vuejs3</u>, <u>TypeScript</u>, <u>Vite</u>, <u>TailwindCss</u> and 
 							<u>Laravel</u>. 
 
 							<!-- A Passionate Front-end Developer and an aspiring
