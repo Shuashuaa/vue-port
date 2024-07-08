@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="btn" v-for="(item, index) in items" :key="index" :to="item.to" style="text-align: center;">
-				<a :href="item.to" target="_blank" style="text-decoration: none; display: block;">
+				<a :href="item.to" style="text-decoration: none; display: block;">
 
 					<p class="mobile-items text">
 						<!-- <v-icon>{{ item.icon }}</v-icon>   -->
