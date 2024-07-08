@@ -42,7 +42,7 @@
 		app
 		elevation="0"
 		color="#f5f5f5"
-		style="display: flex: !important; justify-content: space-between !important;"
+		
 		class="d-flex d-sm-flex d-md-none"
 		density="compact"
 		> 
