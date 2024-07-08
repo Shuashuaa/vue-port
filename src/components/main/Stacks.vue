@@ -45,9 +45,9 @@ export default {
         const stacks = ref([
             { name: 'VUEJS', image: 'https://vuejs.org/images/logo.png' },
             { name: 'VITE', image: 'https://vitejs.dev/logo-with-shadow.png' },
-            { name: 'VUETIFY', image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg' },
-            { name: 'TAILWINDCSS', image: 'https://www.svgrepo.com/show/374118/tailwind.svg' },
-            { name: 'LARAVEL', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png' }
+            { name: 'TYPESCRIPT', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' },
+            { name: 'LARAVEL', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png' },
+            { name: 'TAILWINDCSS', image: 'https://www.svgrepo.com/show/374118/tailwind.svg' }
         ])
 
         const otherStacks = ref([
@@ -55,9 +55,11 @@ export default {
             { name: 'CSS', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' },
             { name: 'JAVASCRIPT', image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png' },
             { name: 'PHP', image: 'https://pngimg.com/d/php_PNG27.png' },
+            { name: 'VUETIFY', image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg' },
             { name: 'MYSQL', image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/MySQL_Dolphin.jpg' },
             { name: 'NODEJS', image: 'https://cdn-icons-png.flaticon.com/512/5968/5968322.png' },
             { name: 'BOOTSTRAP', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png' },
+            { name: 'FIREBASE', image: 'https://cdn.freebiesupply.com/logos/thumbs/2x/firebase-1-logo.png' },
             { name: 'FIGMA', image: 'https://w7.pngwing.com/pngs/431/965/png-transparent-figma-designer-computer-icons-material-design-design-rectangle-poster-logo.png' },
             { name: 'GIT', image: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' },
             { name: 'GITHUB', image: 'https://cdn-icons-png.flaticon.com/512/25/25231.png' },
@@ -68,7 +70,6 @@ export default {
             { name: 'VSCODE', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png' },
             { name: 'NPMJS', image: 'https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png' },
             { name: 'YARNPKG', image: 'https://avatars.githubusercontent.com/u/22247014?s=280&v=4' },
-            { name: 'SWEETALERT2', image: 'https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png' }
         ])
 
         return { stacks, otherStacks }
