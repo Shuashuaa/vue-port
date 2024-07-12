@@ -6,7 +6,11 @@
 		<div id="canvas" class="d-block d-sm-block d-md-none">
 			<div class="mb-16 text-center" style="display: flex; flex-direction: column; align-items: center;">
 				<v-img draggable="false" src="/logooo.png" width="100" class="mb-2"/>
-				<p class="text-infos" style="color: #f5f5f5;">@2023 | Made with <v-icon>mdi-heart</v-icon> and <v-icon>mdi-coffee</v-icon> by <br><b style="color: #01b4d2;">Jovi Joshua Tania</b>.</p>
+				<p class="text-infos" style="color: #f5f5f5;">@2023 | Made with <v-icon>mdi-heart</v-icon> and <v-icon>mdi-coffee</v-icon> by <br>
+					<b>
+						<a style="color: #01b4d2;" href="https://github.com/Shuashuaa/">Jovi Joshua Tania</a>
+					</b>.
+				</p>
 			</div>
 
 			<div class="d-flex justify-center">
@@ -14,14 +18,14 @@
 				<div>
 					<h3 class="title-infos mb-5" style="color: white;">Social Links</h3>
 					<div class="link" v-for="(social_link, i) in footerData.social_links" :key="i">
-						<a class="text-infos" style="color: white; text-decoration: none; margin-buttom: 5px;" :href="social_link.link">
+						<a class="text-infos" style="color: white; text-decoration: none; margin-bottom: 5px;" :href="social_link.link">
 							{{social_link.name}}
 						</a>
 					</div>
 				</div>
 
 				<div class="ml-15">
-					<h3 class="title-infos mb-5" style="color: white;">Important Links</h3>
+					<h3 class="title-infos mb-5" style="color: white;">Made by Yours Truly</h3>
 					<div class="link" v-for="(important_link, i) in footerData.important_links" :key="i">
 						<a class="text-infos" style="color: white; text-decoration: none;" :href="important_link.link">
 							{{important_link.name}}
@@ -54,13 +58,17 @@
 		<div id="canvas" class="d-none d-md-flex d-lg-flex d-xl-flex">
 			<div>
 				<v-img draggable="false" src="/logooo.png" width="100" class="mb-2"/>
-				<p class="text-infos" style="color: #f5f5f5;">@2023 | Made with <v-icon>mdi-heart</v-icon> and <v-icon>mdi-coffee</v-icon> by <b style="color: #01b4d2;">Jovi Joshua Tania</b>.</p>
+				<p class="text-infos" style="color: #f5f5f5;">@2023 | Made with <v-icon>mdi-heart</v-icon> and <v-icon>mdi-coffee</v-icon> by 
+					<b>
+						<a style="color: #01b4d2;" href="https://github.com/Shuashuaa/">Jovi Joshua Tania</a>
+					</b>.
+				</p>
 			</div>
 
 			<v-spacer/>
 
 			<div >
-				<h3 class="title-infos mb-5" style="color: white;">Important Links</h3>
+				<h3 class="title-infos mb-5" style="color: white;">Made by Yours Truly</h3>
 				<div class="link" v-for="(important_links, i) in footerData.important_links" :key="i">
 					<a class="text-infos" style="color: white; text-decoration: none;" :href="important_links.link">
 						{{important_links.name}}
