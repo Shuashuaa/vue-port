@@ -55,6 +55,7 @@ export default {
             { name: 'CSS', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' },
             { name: 'JAVASCRIPT', image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png' },
             { name: 'PHP', image: 'https://pngimg.com/d/php_PNG27.png' },
+            { name: 'ASTRO', image: 'https://seeklogo.com/images/A/astro-icon-logo-44253BACEE-seeklogo.com.png' },
             { name: 'VUETIFY', image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg' },
             { name: 'MYSQL', image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/MySQL_Dolphin.jpg' },
             { name: 'NODEJS', image: 'https://cdn-icons-png.flaticon.com/512/5968/5968322.png' },
