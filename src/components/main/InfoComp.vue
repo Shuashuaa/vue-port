@@ -86,7 +86,7 @@
 				
 				<v-card class="parentBg ml-10 text-center" width="50%" style="border-radius: 50px; padding-top: 80px;" color="#f5f5f5" elevation="0">
 					<h1 class="text-infos shadow-in" style="font-size: 70px;">
-						<b>2+</b>
+						<b>3+</b>
 					</h1>
 					<p class="text-infos shadow-in" style="font-size: 50px; margin-top: -35px">years</p>
 					&nbsp;
@@ -163,7 +163,7 @@
 			
 			<v-card class="parentBg text-center" style="border-radius: 50px; padding-top: 80px;" color="#f5f5f5" elevation="0">
 				<h1 class="text-infos shadow-in" style="font-size: 70px;">
-					<b>2+</b>
+					<b>3+</b>
 				</h1>
 				<p class="text-infos shadow-in" style="font-size: 50px; margin-top: -35px">years</p>
 				&nbsp;
