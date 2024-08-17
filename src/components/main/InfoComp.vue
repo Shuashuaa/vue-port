@@ -93,7 +93,7 @@
 					<p class="text-infos shadow-in">of experience with</p>
 					&nbsp;
 					<p class="mx-5 text-infos shadow-in" style="font-size: 15px;">
-						<b>Vuejs, Vuetify & Laravel</b>
+						<b>Vuejs & Laravel</b>
 					</p>
 				</v-card>
 			</div>
@@ -170,7 +170,7 @@
 				<p class="text-infos shadow-in">of experience with</p>
 				&nbsp;
 				<p class="mx-5 text-infos shadow-in" style="font-size: 15px;">
-					<b>Vuejs, Vuetify & Laravel</b>
+					<b>Vuejs & Laravel</b>
 				</p>
 			</v-card>
 		</div>
